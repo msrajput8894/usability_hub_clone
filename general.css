@@ -43,7 +43,7 @@ p{
   font-family: 'roboto',sans-serif;
   font-size: 1.8rem;
   color: var(--secondary-text-color);
-  line-height: 1.2rem;
+  line-height: 1.2;
 }
 
 a{
@@ -55,8 +55,8 @@ a{
 /* utility classes */
 
 .small-bold-text{
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .container{

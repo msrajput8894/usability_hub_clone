@@ -1,59 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>usabilityhub clone</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="general.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>usabilityhub clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+  </head>
+  <body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+      <div class="container">
+        <div class="small-bold-text banner">
+          📣 Interviews is now in beta! Read more →
+        </div>
+      </div>
+    </div>
 
-  <!-- Top Banner -->
-  <div class="top-banner">
+    <!-- Header section -->
     <div class="container">
-      <div class="small-bold-text banner">
-        📣 Interviews is now in beta! Read more →
+      <div class="header">
+        <div class="logo">
+          <a href="#" class="main-logo">
+            <img
+              class="main-logo"
+              src="Assets/asset 1.png"
+              alt="company-logo"
+            />
+          </a>
+          <a href="#" class="header-btn">Become a tester</a>
+        </div>
+        <nav class="navigation">
+          <ul class="main-nav-list">
+            <li class="nav-list">
+              <a href="#" class="main-nav-link">Product</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="main-nav-link">Customers</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="main-nav-link">Pricing</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="main-nav-link">Resources</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="main-nav-link sign-in-btn">sign in</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="main-nav-link sign-up-btn">sign up</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
-  </div>
 
+    <!-- Home page section -->
+    <section class="home-section">
+      <div class="container home">
+        <div class="home-text-box">
+          <h1 class="primary-heading">Design confidently.</h1>
+          <p class="home-para">
+            UsabilityHub is a remote user research platform that takes the
+            guesswork out of design decisions by validating them with real
+            users.
+          </p>
 
-  <div class="container">
-    <div class="header">
-      <div class="logo">
-        <a href="#" class="main-logo" >
-          <img class="main-logo" src="Assets/asset 1.png" alt="company-logo">
-        </a>
-        <a href="#" class="header-btn">Become a tester</a>
+          <a href="#" class="cta-btn sign-up-btn"> Get Started </a>
+        </div>
+
+        <div class="home-img-box">
+          <img
+            class="home-img"
+            src="Assets/asset 2.jpeg"
+            alt="animated image of three people discussing something related to work"
+          />
+        </div>
       </div>
-      <nav class="navigation">
-        <ul class="main-nav-list">
-          <li class="nav-list"> <a href="#" class="main-nav-link">Home</a></li>
-          <li class="nav-list"> <a href="#" class="main-nav-link">Customers</a></li>
-          <li class="nav-list"> <a href="#" class="main-nav-link">Pricing</a></li>
-          <li class="nav-list"> <a href="#" class="main-nav-link">Resources</a></li>
-          <li class="nav-list"> <a href="#" class="main-nav-link sign-in-btn">sign in</a></li>
-          <li class="nav-list"> <a href="#" class="main-nav-link sign-up-btn">sign up</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-  
-  <section class="home-section">home</section>
-  <section class="companies-section">companies</section>
-  <section class="features-section1">features section1</section>
-  <section class="features-section2">features section2</section>
-  <section class="features-section3">featuere section3</section>
-  <section class="examples-section">examples</section>
-  <section class="cta-section"></section>
+    </section>
 
-  <footer class="footer">Footer</footer>
-  <div class="subfooter">subfooter</div>
+    <!-- Companies section -->
 
+    <section class="companies-section">
+      <div class="container companies">
+        <div class="companies-heading">
+          The world’s best companies rely on UsabilityHub to make better design
+          decisions.
+        </div>
 
+        <div class="companies-logos">
+          <img class="logos" src="Assets/asset 3.png" alt="Amazon Logo" />
+          <img class="logos" src="Assets/asset 4.png" alt="Google Logo" />
+          <img
+            class="logos TaskRabbit-logo"
+            src="Assets/asset 5.png"
+            alt="TaskRabbit Logo"
+          />
+          <img class="logos" src="Assets/asset 6.png" alt="Airtable Logo" />
+          <img class="logos box-logo" src="Assets/asset 7.png" alt="Box Logo" />
+          <img class="logos" src="Assets/asset 8.svg" alt="GoDaddy Logo" />
+          <img class="logos" src="Assets/asset 9.png" alt="asana Logo" />
+        </div>
+      </div>
+    </section>
 
+    <!-- All features section -->
+    <section class="features-section1">
+      <div class="container">
+        <div class="backcolor">
+          <div class="features--1">
+            <div class="fea-head">
+              <h2 class="heading-secondary">
+                Your user research Swiss Army knife
+              </h2>
+              <button class="feature-btn learn-more-btn">
+                See all feature
+                <img src="Assets/asset 10.svg" alt="right arrow" />
+              </button>
+            </div>
+            <div class="fea-col">
+              <div class="feature">
+                <img
+                  src="Assets/asset 11.svg"
+                  alt="card sorting icon"
+                  class="feature-icon"
+                />
+                <h3 class="feature-heading">Card sorting</h3>
+                <p class="feature-para">
+                  Discover how people group and label information.
+                </p>
+                <button class="learn-more-btn">
+                  learn more <img src="Assets/asset 10.svg" alt="" />
+                </button>
+              </div>
 
-  <script src="https://kit.fontawesome.com/bab7bad494.js" crossorigin="anonymous"></script>
-</body>
+              <div class="feature">
+                <img
+                  src="Assets/asset 13.svg"
+                  alt="card sorting icon"
+                  class="feature-icon"
+                />
+                <h3 class="feature-heading">Prototype tests</h3>
+                <p class="feature-para">
+                  Discover how people navigate your Figma prototypes.
+                </p>
+                <button class="learn-more-btn">
+                  learn more <img src="Assets/asset 10.svg" alt="" />
+                </button>
+              </div>
+
+              <div class="feature">
+                <img
+                  src="Assets/asset 14.svg"
+                  alt="card sorting icon"
+                  class="feature-icon"
+                />
+                <h3 class="feature-heading">First click tests</h3>
+                <p class="feature-para">
+                  Test interaction with first click and navigation tests.
+                </p>
+                <button class="learn-more-btn">
+                  learn more <img src="Assets/asset 10.svg" alt="" />
+                </button>
+              </div>
+
+              <div class="feature">
+                <img
+                  src="Assets/asset 15.svg"
+                  alt="card sorting icon"
+                  class="feature-icon"
+                />
+                <h3 class="feature-heading">Design surveys</h3>
+                <p class="feature-para">
+                  Get feedback on images, videos or audio files.
+                </p>
+                <button class="learn-more-btn">
+                  learn more <img src="Assets/asset 10.svg" alt="" />
+                </button>
+              </div>
+
+              <div class="feature">
+                <img
+                  src="Assets/asset 16.svg"
+                  alt="card sorting icon"
+                  class="feature-icon"
+                />
+                <h3 class="feature-heading">Preference tests</h3>
+                <p class="feature-para">
+                  Find out which designs users prefer and why.
+                </p>
+                <button class="learn-more-btn">
+                  learn more <img src="Assets/asset 10.svg" alt="" />
+                </button>
+              </div>
+
+              <div class="feature">
+                <img
+                  src="Assets/asset 17.svg"
+                  alt="card sorting icon"
+                  class="feature-icon"
+                />
+                <h3 class="feature-heading">Five second tests</h3>
+                <p class="feature-para">
+                  Test comprehensibility by measuring first impressions.
+                </p>
+                <button class="learn-more-btn">
+                  learn more <img src="Assets/asset 10.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section-1 -->
+    <section class="features-section">
+      <div class="container">
+        <div class="features--2">
+          <div class="features-img-box">
+            <img
+              class="feature-img"
+              src="Assets/asset 18.png"
+              alt="animated image of women working on laptop"
+            />
+          </div>
+
+          <div class="features-text-box">
+            <h3 class="tertairy-heading">Effortless validation for</h3>
+            <h2 class="heading-secondary feature-secondary">
+              Design professionals
+            </h2>
+            <p class="feature-para--2">
+              Test interfaces, interaction flows, iconography and more, to help
+              you create intuitive and delightful experiences for your users.
+            </p>
+
+            <div class="testimonial">
+              <img
+                src="Assets/asset 19.png"
+                alt="logo of testimonial"
+                class="testimonial-logo"
+              />
+
+              <p class="testimonial-para">
+                The navigation test is god's gift to UI designers, it probably
+                has the best power-to-simplicity ratio of any software, ever.
+              </p>
+              <div class="contact">
+                <span class="testimonial-contact">
+                  <img
+                    src="Assets/asset 20.png "
+                    alt="customer image"
+                    class="testimonial-img"
+                  />
+                </span>
+                <span>
+                  <p class="customer-name">Nick Franklin</p>
+                  <p class="customer-role">Chief Executive Officer</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section--2 -->
+    <section class="features-section">
+      <div class="container">
+        <div class="features--2">
+          <div class="features-text-box f--2-txt-box">
+            <h3 class="tertairy-heading">Optimisation for</h3>
+            <h2 class="heading-secondary feature-secondary">Marketers</h2>
+            <p class="feature-para--2">
+              Fine-tune landing pages, messaging, and creative, helping you
+              optimise conversion rates on marketing campaigns and product
+              launches.
+            </p>
+
+            <div class="testimonial">
+              <img
+                src="Assets/asset 22.png"
+                alt="logo of testimonial"
+                class="testimonial-logo philips-logo"
+              />
+
+              <p class="testimonial-para">
+                We use UsabilityHub tests to help us make decisions for various
+                projects. From web and mobile design to marketing activities.
+              </p>
+              <div class="contact">
+                <span class="testimonial-contact">
+                  <img
+                    src="Assets/asset 23.png "
+                    alt="customer image"
+                    class="testimonial-img"
+                  />
+                </span>
+                <span>
+                  <p class="customer-name">Rick van de Ven</p>
+                  <p class="customer-role">Digital Marketing analyst</p>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="features-img-box">
+            <img
+              src="Assets/asset 21.png"
+              alt="animated image of man working on laptop"
+              class="feature-img f--2-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section-3 -->
+
+    <section class="features-section">
+      <div class="container">
+        <div class="features--2">
+          <div class="features-img-box">
+            <img
+              class="feature-img"
+              src="Assets/asset 24.png"
+              alt="animated image of women working on laptop"
+            />
+          </div>
+
+          <div class="features-text-box">
+            <h3 class="tertairy-heading">Easier decision making for</h3>
+            <h2 class="heading-secondary feature-secondary">
+              Product managers
+            </h2>
+            <p class="feature-para--2">
+              Ensure you’re delivering the right features to the right customers
+              by validating product concepts with your target audience.
+            </p>
+
+            <div class="testimonial">
+              <img
+                src="Assets/asset 25.png"
+                alt="logo of testimonial"
+                class="testimonial-logo"
+              />
+
+              <p class="testimonial-para">
+                Adopting UsabilityHub got us into the habit of asking our users
+                questions before locking in decisions.
+              </p>
+              <div class="contact">
+                <span class="testimonial-contact">
+                  <img
+                    src="Assets/asset 26.png "
+                    alt="customer image"
+                    class="testimonial-img"
+                  />
+                </span>
+                <span>
+                  <p class="customer-name">Ron Diorio</p>
+                  <p class="customer-role">VP Innovation & New Products</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="examples-section">
+      <div class="container">
+        <div class="exa-container">
+          <div class="exa-head">
+            <h2 class="exa-heading heading-secondary">
+              One platform, endless possibilities
+            </h2>
+            <button class="learn-more-btn">
+              See more examples
+              <img src="Assets/asset 12.svg" alt="right arrow" />
+            </button>
+          </div>
+          <div class="examples">
+            <div class="exa exa1">
+              <a class="exa-links" href="#"
+                >Can users complete a task in my software interface</a
+              >
+            </div>
+            <div class="exa exa2">
+              <a class="exa-links" href="#"
+                >Can users complete a task in my software interface</a
+              >
+            </div>
+            <div class="exa exa3">
+              <a class="exa-links" href="#"
+                >Can users complete a task in my software interface</a
+              >
+            </div>
+            <div class="exa exa4">
+              <a class="exa-links" href="#"
+                >Can users complete a task in my software interface</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cta-section"></section>
+
+    <footer class="footer">Footer</footer>
+    <div class="subfooter">subfooter</div>
+
+    <script
+      src="https://kit.fontawesome.com/bab7bad494.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
